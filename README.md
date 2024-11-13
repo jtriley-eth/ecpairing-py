@@ -2,8 +2,6 @@
 
 toy example of ec pairing over bls12-381 in an effort to learn about optimizations
 
-[the document](src/ecpairing.ipynb)
-
 initial draft is a near copy of [ethereum/py_ecc](https://github.com/ethereum/py_ecc), simplified,
 removed generics to only be used for bls12-381, & simplified the type system
 
