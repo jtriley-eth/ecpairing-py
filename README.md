@@ -4,6 +4,9 @@ toy example of ec pairing over bls12-381 in an effort to learn about optimizatio
 
 [the document](src/ecpairing.ipynb)
 
+initial draft is a near copy of [ethereum/py_ecc](https://github.com/ethereum/py_ecc), simplified,
+removed generics to only be used for bls12-381, & simplified the type system
+
 helpful documents:
 
 - [BLS12-381 For The Rest of Us](https://hackmd.io/@benjaminion/bls12-381)
@@ -12,5 +15,5 @@ helpful documents:
 
 helpful implementations:
 
-- [ethereum/py_ecc](https://github.com/ethereum/py_ecc/tree/main)
+- [ethereum/py_ecc](https://github.com/ethereum/py_ecc)
 - [ewynx/noir_bls12_31_pairing](https://github.com/ewynx/noir_bls12_381_pairing)
